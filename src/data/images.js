@@ -21,22 +21,9 @@ const images = {
   pools: {
     // loaded when engine is inited
     default: [
-      // [ "example", "example", "png", { "totalFrame": 4, "totalLine": 2, "interval": 50, "animated":true, "isReversed": false } ]
-      // [ "ship", "ayera/ship.png", { "totalFrame": 10, "totalLine": 1, "interval": 100, "animated":true, "isReversed": false } ]
-      [ "ayeraShip", "shmup/ayera-ship.png" ],
-      [ "player-bullet", "shmup/p-bullet.png", { "totalFrame": 10, "interval": 50, "animated": true, "loop": false } ],
-      [ "heart", "shmup/heart.png" ],
-      [ "target", "shmup/target.png" ],
-      [ "reactor", "shmup/reactor.png", { "totalFrame": 4, "interval": 40, "animated": true } ],
-      "shmup/ship.json",
-      
-      [ "bg", "env/bg.jpg", { "totalFrame": 1, "animated":false, "isReversed": false } ],
-      [ "canyon", "env/canyon.png", { "totalFrame": 1, "animated":false, "isReversed": false } ],
-      [ "grass", "env/grass.png", { "totalFrame": 1, "animated":false, "isReversed": false } ],
-      [ "touchControlBackground", "touch-control/background.png", { "totalFrame": 1, "animated": false } ],
-      [ "touchControlStick", "touch-control/stick.png", { "totalFrame": 1, "animated": false } ],
-      
-      [ "platform", "platform.png", { "totalFrame": 1, "interval": 1, "totalLine": 1, "animated":false } ]
+      [ "ship_medium", "shmup/ship_medium.png"],
+      [ "mine", "shmup/mine.png"],
+      [ "water_split", "shmup/water_split.png", {"totalFrame":5, "interval": 40, "animated": true,}],
     ],
     
     // a custom pool not loaded by default, you have to load it whenever you want (you can display a custom loader or just the default loader)

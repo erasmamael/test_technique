@@ -7,6 +7,7 @@
  */
 const dictionary = {
   en: {
+    playagain: "Play again",
     play: "Play",
     settings: "Settings",
     credits: "Credits",
@@ -14,11 +15,12 @@ const dictionary = {
     player: {
       name: "Toto",
       data: {
-        realname: "Super toto"
+        realname: "Nice toto"
       }
     }
   },
   fr: {
+    playagain: "Rejouer",
     play: "Jouer",
     settings: "Options",
     credits: "Credits",
